@@ -5,8 +5,10 @@
 
 **RGB color codes** are one of the most popular ways to define colors in web pages. They are written in the following way:
 
-color: `rgb`(0, 0, 0);       /* black */
-color: `rgb`(255, 255, 255); /* white */
+```
+color: rgb(0, 0, 0);       /* black */
+color: rgb(255, 255, 255); /* white */
+```
 
 ## [Hex color codes](https://www.educative.io/answers/rgb-to-hex#:~:text=%3B%20/*%20white%20*/-,Hex%20color%20codes,-Hex%20color%20codes)
 
