@@ -47,6 +47,7 @@ Let’s look at the color `crimson` as an example. The RGB color code for crimso
 - Take the `remainder` of the first digit, 0.75, and multiply by 16.
   `0.75 (16) = 12`
   > This means that the second digit of the 6-digit hex color code is 12, or C.
+  
   So far, we have `#DC____`.
   
 ### Second Value
@@ -57,6 +58,7 @@ Let’s look at the color `crimson` as an example. The RGB color code for crimso
 - Take the remainder of the first digit, 0.25, and multiply by 16.
   `0.25 (16) = 4`
   > This means that the fourth digit of the 6-digit hex color code is 4.
+  
   In addition to what we already had, we now have `#DC14__`.
 
 ### Third Value
@@ -67,6 +69,7 @@ Let’s look at the color `crimson` as an example. The RGB color code for crimso
 - Take the remainder of the first digit, 0.75, and multiply by 16.
   `0.75 (16) = 12`
   > This means that the sixth digit of the 6-digit hex color code is 12, or C.
+  
   Finally, we have our total value of `#DC143C`.
 
 [^1]: this means that there are 10 unique characters that define the numbers 0 – 9
