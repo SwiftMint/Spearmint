@@ -50,11 +50,18 @@ When you don't enjoy contributing, it likely means you won't seek to keep it upd
 Spearmint is meant to be an ever-evolving and updated database, future individuals flocking here deserve the respect we would want in their scenario.
 
 # Spearmint Workflow
-All contributions (including my own) **must** go through a PR.
-The template is as follows:
+All contributions (including my own) **must** begin in a separate branch from main, named on what is new, based on the **SIR** hierarchy.   
+
+|Prefix|Description|
+|-|-|
+|`Sort` `/`|Folder|
+|`Inform` `/`|File|
+|`Revise` `/`|Line|
+
+
+Once the appropriately named branch is ready for merge, see below for the PR template. 
 ```
 # Intent  <!-- A very concise description of the overarching purpose. -->
-<!-- `Closes #X`, `Update Internal Documents`, `Adjust wording for clarity`, etc. -->
 
 
 ## Reviewer Notes  <!-- A general overview that anyone without a deep knowledge of the field can understand. -->
@@ -69,12 +76,10 @@ The template is as follows:
 
 - [ ]
 
-<!-- When applicable, add a `## Resources` section
-List any sort of documentation, examples, or references (along with their purpose) that you feel may help when reviewing the changes within.
-It is expected that all PRs have already been self-reviewed, proofread, and free of noticeable errors (unless otherwise specified). -->
+<!-- When applicable, add a `## Resources` section -->
 ```
 
-The only exceptions at this point are contributions approved through me, in documents without a container and are externally facing.
+The only exceptions at this point are contributions approved through me, in documents without a container and are externally facing:
 - ReadMe.md
 - Contributions.md
 - License.md
