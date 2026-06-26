@@ -50,39 +50,8 @@ When you don't enjoy contributing, it likely means you won't seek to keep it upd
 Spearmint is meant to be an ever-evolving and updated database, future individuals flocking here deserve the respect we would want in their scenario.
 
 # Spearmint Workflow
-All contributions (including my own) **must** begin in a separate branch from main, named on what is new, based on the **SIR** hierarchy.   
 
-|Prefix|Description|
-|-|-|
-|`Sort` `/`|Folder|
-|`Inform` `/`|File|
-|`Revise` `/`|Line|
-
-
-Once the appropriately named branch is ready for merge, see below for the PR template. 
-```
-# Intent  <!-- A very concise description of the overarching purpose. -->
-
-
-## Reviewer Notes  <!-- A general overview that anyone without a deep knowledge of the field can understand. -->
-
-
-
-## Developer Notes  <!-- Specific rationale for all changes that those with a working knowledge of the field can reference. -->
-
-
-
-## Reviewer Checklist  <!-- Direct reviewer with specific steps beyond generic reviewer responsibilities (proofreading, checking sources/credibility, etc.) -->
-
-- [ ]
-
-<!-- When applicable, add a `## Resources` section -->
-```
-
-The only exceptions at this point are contributions approved through me, in documents without a container and are externally facing:
-- ReadMe.md
-- Contributions.md
-- License.md
+See the [Spearmint Wiki](https://github.com/SwiftMint/Spearmint/wiki) for all Standard Operating Procedures (SOPs).
 
 # About Me
 
