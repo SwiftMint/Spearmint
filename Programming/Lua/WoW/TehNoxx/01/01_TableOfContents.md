@@ -1105,7 +1105,7 @@ The AddOn will display this if `LoadOnDemand` is set to `1` or `true`,
 ## LoadOnDemand: true
 ```
 
-![A black marbled background with a yellow tick in a checkbox on the left. To the immediate right is an icon of a cursive Medium Spring Green (Hex Code: #00ff9d) "W" overlapping a "G" of the same color,  wrapped in a black rounded border . To the immediate right is the word Wintergreen, displayed in a gradient. The gradient starts at "W" as white (Hex Code: #FFFFFF), and ends at the second "n" at the end of the word (Hex Code: #00ff9d). On the right is the phrase, in base yellow, "Only loadable on demand".](01_TableOfContentsImage35.png)
+![A black marbled background with a yellow tick in a checkbox on the left. To the immediate right is an icon of a cursive Medium Spring Green (Hex Code: #00ff9d) "W" overlapping a "G" of the same color,  wrapped in a black rounded border . To the immediate right is the word Wintergreen, displayed in a gradient. The gradient starts at "W" as white (Hex Code: #FFFFFF), and ends at the second "n" at the end of the word (Hex Code: #00ff9d). On the right is the phrase, in base yellow, "Only loadable on demand".](01_TableOfContentsImage34.png)
 
 Regardless if the AddOn is then loaded at some point, the same disclaimer will remain there.  
 `LoadOnDemand` tags cannot be localized.  
