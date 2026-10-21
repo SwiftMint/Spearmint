@@ -1,13 +1,53 @@
-[X]
+# Recap
+In `01_TableOfContents.md`, very `.toc` `tag`, `directive`, and `variable` was discussed.  
+Author's `.toc` at the end of `01_TableOfContents.md` is as seen below.  
 
----
+```
+## Interface: 120100
+## Title: |cffffffffW|cffe6fff5i|cffccffebn|cffb3ffe2t|cff99ffd8e|cff80ffcer|cff66ffc4g|cff4dffbar|cff33ffb1e|cff19ffa7e|cff00ff9dn|r
+## IconTexture: Interface\AddOns\Wintergreen\WintergreenIcon(Letters,BlackSticker)
+## Notes: My first AddOn, primarily a learning experience!
+## Author: Swift
+## Version: |cff00ff9d0|cffffffff.|cff00ffb70|cffffffff.|cff00ffe60|r
+```
 
-### Step 1: Creating the Frame
-To start, let's load up your .lua file you created in the previous tutorial. It should look something like this:
+# Actually Doing Something
+Now that the `.toc` file is complete, we can begin adding files into it as they're created.  
+
+Begin with creating a `Lua` file to start the AddOn with.  
+Author decided to name their first `Lua` file, `Basic.lua`.  
+
+In the `.toc`, add the file's name in the directory it has.  
+The `.toc` presumes the same base folder as it is in, so start with the file name (or folder name if subfolders were created).  
+
+```
+Basic.lua
+```
+
+In this file, the `print()` function in Lua is the quickest indicator that the file has been loaded.  
+A `print()` function is a `Lua` function where the insides of `()` are encased in quotes (`""`) to act as a string.  
+
+Author chose to print `This is a test message!`.  
+Their file (`Basic.lua`)'s addition would be as follows.  
 
 ```lua
-print("MyAddon successfully loaded!")
+print("This is a test message!")
 ```
+
+<IMAGE SHOWING THAT>
+
+<SECTION DISCUSSING LOCAL/GLOBAL VARIABLES AND PRINT STATEMENTS INVOLVING THEM>
+
+# Framework
+
+Many AddOns do more than just print statements to the chat window.  
+Frame`s are typically added, either from Blizzard templates or new ones created by the developer.  
+
+<SECTION DISCUSSING THE FUNCTION `CREATEFRAME()`'S SYNTAX>
+
+<SECTION DISCUSSING THE SPECIFIC BLIZZARD TEMPLATE BEING USED>
+
+---
 
 We're going to adjust this by just adding code below it. The very first thing we're going to do is create a frame using Blizzard's frame template:
 
